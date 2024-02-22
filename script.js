@@ -11,7 +11,7 @@ connectLink = document.getElementById('connectLink').addEventListener('click',()
     window.open('https://www.linkedin.com/in/nitish-k-a2877a250/','_blank')
 })
 
-const Resume = 'https://drive.google.com/file/d/1AfyC1EsqzfKBX2rrPPs0-rr1ZOJdjOtU/view?usp=sharing'
+const Resume = 'https://drive.google.com/file/d/1CGqAyYQvLHsgSNGf9Xg1G5PAxa17cuqc/view?usp=drive_link'
 
 let resumeLink1 = document.getElementById('resumeLink1').addEventListener('click',()=>{
     console.log("clik");
