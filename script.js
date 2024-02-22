@@ -11,16 +11,16 @@ connectLink = document.getElementById('connectLink').addEventListener('click',()
     window.open('https://www.linkedin.com/in/nitish-k-a2877a250/','_blank')
 })
 
-//https://drive.google.com/file/d/1Ineo2BMt60ZzDETHetKkMrvykADddyh3/view?usp=sharing
+const Resume = 'https://drive.google.com/file/d/1AfyC1EsqzfKBX2rrPPs0-rr1ZOJdjOtU/view?usp=sharing'
 
 let resumeLink1 = document.getElementById('resumeLink1').addEventListener('click',()=>{
     console.log("clik");
-    window.open('https://drive.google.com/file/d/1Ineo2BMt60ZzDETHetKkMrvykADddyh3/view')
+    window.open(Resume)
 })
 
 let resumeLink2 = document.getElementById('resumeLink2').addEventListener('click',()=>{
     console.log("clik");
-    window.open('https://drive.google.com/file/d/1Ineo2BMt60ZzDETHetKkMrvykADddyh3/view')
+    window.open(Resume)
 })
 
 let openMailTo = document.getElementById('openMailTo').addEventListener('click',()=>{
